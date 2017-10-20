@@ -16,7 +16,6 @@ body {
 	padding: 0;
 	color: #000;
 }
-
 /* ~~ Element/tag selectors ~~ */
 ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
 	padding: 0;
@@ -42,36 +41,27 @@ a:visited {
 a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
 	text-decoration: none;
 }
-
 /* ~~ this fixed width container surrounds the other divs ~~ */
 .container {
 	width: 960px;
 	background: #FFF;
 	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
 }
-
 /* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
 .header {
 	background: #ADB96E;
 }
-
 /* ~~ This is the layout information. ~~ 
-
 1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
-
 */
-
 .content {
-
 	padding: 10px 0;
 }
-
 /* ~~ The footer ~~ */
 .footer {
 	padding: 10px 0;
 	background: #CCC49F;
 }
-
 /* ~~ miscellaneous float/clear classes ~~ */
 .fltrt {  /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
 	float: right;
@@ -89,52 +79,55 @@ a:hover, a:active, a:focus { /* this group of selectors will give a keyboard nav
 }
 -->
 </style></head>
-
 <body>
-
 <div class="container">
-  <div class="header"><a href="#"><img src="../Image/Unknown.png" width="100" height="100" />
+  <div class="header"><a href="#"><img src="../Image/Unknown.png" alt="Insert Logo Here" name="Insert_logo" width="100" height="100" id="Insert_logo" style="background: #C6D580; display:block;" /></a> 
     <!-- end .header --></div>
   <div class="content">
-    <h1>Garry's Mod   $9.99</h1>
-    <p><img src="../Image/garry's mod/garry.jpg" width="460" height="215" /></p>
-    <p>&nbsp;</p>
+    <h1>Garry's mod $9.99</h1>
+    <p><img src="../Image/garry's mod/Gmod img.jpg" width="460" height="215" /></p>
     <p>Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.</p>
-    <h1>About this game</h1>
+    <h2>About this Game</h2>
     <p>Garry's Mod is a physics sandbox. There aren't any predefined aims or goals. We give you the tools and leave you to play.</p>
     <p>You spawn objects and weld them together to create your own contraptions - whether that's a car, a rocket, a catapult or something that doesn't have a name yet - that's up to you. You can do it offline, or join the thousands of players who play online each day. </p>
     <p>If you're not too great at construction - don't worry! You can place a variety of characters in silly positions. But if you want to do more, we have the means.</p>
-    <p>&nbsp;</p>
-    <h1>SYSTEM REQUIREMENTS</h1>
+<h3>System Requirements</h3>
     <p>MINIMUM:<br />
-      OS: Windows® Vista/XP<br />
-      Processor: 1.8 GHz Processor<br />
-      Memory: 2 GB RAM<br />
-      Graphics: DirectX® 9 level Graphics Card (Requires support for SSE)<br />
-      DirectX: Version 9.0c<br />
-      Network: Broadband Internet connection<br />
-      Storage: 5 GB available space<br />
-      Sound Card: DirectX® 9 compatible<br />
-      Additional Notes: Mouse, Keyboard, Monitor<br />
-      RECOMMENDED:<br />
-      OS: Windows® 7/8/8.1/10<br />
-      Processor: 2.5 GHz Processor or better<br />
-      Memory: 8 GB RAM<br />
-      Graphics: 1GB dedicated VRAM or better<br />
-      DirectX: Version 9.0c<br />
-      Network: Broadband Internet connection<br />
-    Storage: 10 GB available space</p>
-    <p>&nbsp;</p>
-    <p>img</p>
-    <p><img src="../Image/garry's mod/0000000825.1920x1080.jpg" width="300" height="337" /><img src="../Image/garry's mod/0000000826.600x338.jpg" width="599" height="337" /><img src="../Image/garry's mod/0000000830.1920x1080.jpg" width="600" height="337" /><img src="../Image/garry's mod/ss_1a9b6c5aaf53e82c00daca46b108774d0d39c32f.1920x1080.jpg" width="300" height="337" /></p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+OS: Windows® Vista/XP<br />
+Processor: 1.8 GHz Processor<br />
+Memory: 2 GB RAM<br />
+Graphics: DirectX® 9 level Graphics Card (Requires support for SSE)<br />
+DirectX: Version 9.0c<br />
+Network: Broadband Internet connection<br />
+Storage: 5 GB available space<br />
+Sound Card: DirectX® 9 compatible<br />
+Additional Notes: Mouse, Keyboard, Monitor<br />
+RECOMMENDED:<br />
+OS: Windows® 7/8/8.1/10<br />
+Processor: 2.5 GHz Processor or better<br />
+Memory: 8 GB RAM<br />
+Graphics: 1GB dedicated VRAM or better<br />
+DirectX: Version 9.0c<br />
+Network: Broadband Internet connection<br />
+Storage: 10 GB available space</p>
+    <p></p>
+<p><img src="../Image/garry's mod/0000000825.1920x1080.jpg" width="277" height="177" /><img src="../Image/garry's mod/0000000826.600x338.jpg" width="277" height="177" /><img src="../Image/garry's mod/0000000830.1920x1080.jpg" width="277" height="177" /></p>
     <!-- end .content --></div>
   <div class="footer">
-    <p>Cog</p>
+    <p>cog</p>
     <!-- end .footer --></div>
   <!-- end .container --></div>
 </body>
 </html>
+© 2017 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+API
+Training
+Shop
+Blog
+About
